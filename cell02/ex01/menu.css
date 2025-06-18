@@ -1,0 +1,22 @@
+.food {
+    background-color: beige;
+    border: solid black;
+    width: 50px;
+}
+.button:hover {
+    background-color: darkseagreen;
+}
+.food:hover {
+    background-color: lightpink;
+}
+.list {
+    display: none;
+}
+.menu {
+    display:inline-block;
+}
+
+.menu:hover .list {
+    display: flex;
+    flex-direction: column;
+}
